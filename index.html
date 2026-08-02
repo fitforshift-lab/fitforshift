@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FitForShift — Regeneration für Wartebereiche, Pausenräume und Teams</title>
-  <meta name="description" content="FitForShift bringt vollautomatische Regenerationskapseln in Unternehmen, Studios und Wartebereiche. Einfach testen, Feedback sammeln, gemeinsam entscheiden." />
+  <title>FitForShift — Regeneration für Industrie, Logistik und Teams</title>
+  <meta name="description" content="FitForShift ist ein Projekt im Aufbau für betriebliche Regenerationslösungen in Industrie, Logistik und weiteren Einsatzbereichen. Produkt derzeit noch nicht erhältlich." />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -61,6 +61,11 @@
 </head>
 <body class="text-slate-900 antialiased selection:bg-brand-100 selection:text-brand-900">
 
+  <!-- Projektstatus -->
+  <div class="border-b border-amber-200 bg-amber-50 px-5 py-2.5 text-center text-sm font-semibold text-amber-900">
+    Projekt im Aufbau – Produkt derzeit noch nicht erhältlich.
+  </div>
+
   <!-- Top Nav -->
   <header class="sticky top-0 z-50 border-b border-slate-200/60 bg-white/75 glass">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
@@ -114,8 +119,8 @@
           </h1>
 
           <p class="mt-6 max-w-xl text-base leading-7 text-slate-600 sm:text-lg">
-            FitForShift bringt vollautomatische Regenerationskapseln in Wartebereiche, Pausenräume und betriebliche Aufenthaltszonen.
-            Für Unternehmen, Studios und Betriebe, die ihren Gästen, Kundinnen, Kunden oder Teams einen spürbaren Mehrwert bieten möchten.
+            FitForShift bringt vollautomatische Regenerationskapseln in Pausenräume und betriebliche Aufenthaltszonen – insbesondere in Industrie und Logistik.
+            Für Betriebe, die ihren Mitarbeiterinnen und Mitarbeitern einen unkomplizierten Regenerationsimpuls direkt im Arbeitsalltag ermöglichen möchten.
           </p>
 
           <div class="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -215,29 +220,53 @@
         </div>
 
         <div class="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
-          <article class="rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
-            <div class="text-3xl">🧠</div>
-            <h3 class="mt-4 text-xl font-bold text-slate-900">Mehr Ruhe im Alltag</h3>
-            <p class="mt-3 text-sm leading-7 text-slate-600">
-              Kurze Regenerationsmomente können helfen, Wartezeiten, Pausen oder ruhige Bereiche für Gäste und Teams sinnvoller zu nutzen.
-            </p>
-          </article>
+          <details class="group rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer list-none items-start justify-between gap-4">
+              <div><div class="text-3xl">🔌</div><h3 class="mt-4 text-xl font-bold text-slate-900">Plug &amp; Play</h3></div>
+              <span class="mt-1 text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-4 text-sm leading-7 text-slate-600">Eine Standard-Steckdose genügt. Der Kunde muss sich weder mit technischer Einrichtung noch mit Software oder Inbetriebnahme beschäftigen.</p>
+          </details>
 
-          <article class="rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
-            <div class="text-3xl">💆</div>
-            <h3 class="mt-4 text-xl font-bold text-slate-900">Ein echter Mehrwert</h3>
-            <p class="mt-3 text-sm leading-7 text-slate-600">
-              Statt leerer Wartezeit entsteht ein Angebot, das als hochwertig, modern und aufmerksamkeitsstark wahrgenommen wird.
-            </p>
-          </article>
+          <details class="group rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer list-none items-start justify-between gap-4">
+              <div><div class="text-3xl">🛠️</div><h3 class="mt-4 text-xl font-bold text-slate-900">Full Service</h3></div>
+              <span class="mt-1 text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-4 text-sm leading-7 text-slate-600">Aufstellung, Inbetriebnahme, Wartung und laufende Betreuung werden vollständig durch den Betreiber organisiert.</p>
+          </details>
 
-          <article class="rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
-            <div class="text-3xl">🛡</div>
-            <h3 class="mt-4 text-xl font-bold text-slate-900">Full Service</h3>
-            <p class="mt-3 text-sm leading-7 text-slate-600">
-              Aufstellung, Wartung, Service und laufende Betreuung laufen über mich. Für den Betrieb entsteht kein technischer Aufwand.
-            </p>
-          </article>
+          <details class="group rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer list-none items-start justify-between gap-4">
+              <div><div class="text-3xl">🛡️</div><h3 class="mt-4 text-xl font-bold text-slate-900">Leistungsgarantie</h3></div>
+              <span class="mt-1 text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-4 text-sm leading-7 text-slate-600">Die Leistungsgarantie gilt, solange das Gerät im Rahmen der Kooperation beim Kunden steht. Bei einem Defekt wird – sofern verfügbar – innerhalb von 72 Stunden ein Tauschgerät bereitgestellt.</p>
+          </details>
+
+          <details class="group rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer list-none items-start justify-between gap-4">
+              <div><div class="text-3xl">↩️</div><h3 class="mt-4 text-xl font-bold text-slate-900">Maximal flexibel</h3></div>
+              <span class="mt-1 text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-4 text-sm leading-7 text-slate-600">Das Modell ist jederzeit kündbar. Wird das Gerät nicht mehr benötigt, wird es ohne zusätzliche Abholkosten wieder abgeholt.</p>
+          </details>
+
+          <details class="group rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer list-none items-start justify-between gap-4">
+              <div><div class="text-3xl">❤️</div><h3 class="mt-4 text-xl font-bold text-slate-900">BGF-Unterstützung</h3></div>
+              <span class="mt-1 text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-4 text-sm leading-7 text-slate-600">FitForShift kann als ergänzende Maßnahme im Rahmen der Betrieblichen Gesundheitsförderung gedacht werden. Die konkrete Einordnung und mögliche Förderfähigkeit sind im Einzelfall mit den zuständigen Stellen zu klären.</p>
+          </details>
+
+          <details class="group rounded-[1.5rem] border border-slate-200 bg-slate-50/70 p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer list-none items-start justify-between gap-4">
+              <div><div class="text-3xl">🤝</div><h3 class="mt-4 text-xl font-bold text-slate-900">Betriebsrat einbinden</h3></div>
+              <span class="mt-1 text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-4 text-sm leading-7 text-slate-600">Der Betriebsrat kann frühzeitig als interner Ansprechpartner eingebunden werden, um Bedarf, Akzeptanz und einen fairen Zugang für die Belegschaft gemeinsam abzustimmen.</p>
+          </details>
         </div>
       </div>
     </section>
@@ -258,37 +287,30 @@
             </p>
 
             <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
-              
-              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <div class="text-sm font-semibold text-slate-900">Studios & Praxen</div>
-                <div class="mt-1 text-xs text-slate-500">für Kundinnen und Kunden im Wartebereich</div>
-              </div>
-              
-              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <div class="text-sm font-semibold text-slate-900">Kosmetik & Wellness</div>
-                <div class="mt-1 text-xs text-slate-500">als Premium-Zusatz im Servicebereich</div>
-              </div>
-              
-              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <div class="text-sm font-semibold text-slate-900">Hotels & Lounges</div>
-                <div class="mt-1 text-xs text-slate-500">als besondere Ruhezone für Gäste</div>
-              </div>
-              
-              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <div class="text-sm font-semibold text-slate-900">Büros & Teams</div>
-                <div class="mt-1 text-xs text-slate-500">für kurze Pausen und Entlastung</div>
-              </div>
-              
-              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <div class="text-sm font-semibold text-slate-900">Fitness & Clubs</div>
-                <div class="mt-1 text-xs text-slate-500">für Regeneration vor oder nach dem Training</div>
-              </div>
-              
-              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <div class="text-sm font-semibold text-slate-900">Event- & Kreativräume</div>
-                <div class="mt-1 text-xs text-slate-500">als aufmerksamkeitsstarker Mehrwert</div>
-              </div>
-              
+              <details class="group rounded-2xl border border-brand-200 bg-brand-50/60 p-4 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-3"><div><div class="text-sm font-semibold text-slate-900">Industrie &amp; Produktion</div><div class="mt-1 text-xs text-slate-500">Regeneration für körperlich belastende Arbeitsplätze</div></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+                <p class="mt-3 text-xs leading-6 text-slate-600">Für Produktionsbetriebe, Werkshallen und Schichtsysteme, in denen kurze, planbare Regenerationszeiten sinnvoll in Pausen integriert werden sollen.</p>
+              </details>
+              <details class="group rounded-2xl border border-brand-200 bg-brand-50/60 p-4 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-3"><div><div class="text-sm font-semibold text-slate-900">Logistik &amp; Lager</div><div class="mt-1 text-xs text-slate-500">für Schicht-, Lager- und Transportteams</div></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+                <p class="mt-3 text-xs leading-6 text-slate-600">Für stark frequentierte Lager- und Logistikstandorte, an denen Belastung, Zeitdruck und wechselnde Schichten zum Arbeitsalltag gehören.</p>
+              </details>
+              <details class="group rounded-2xl border border-slate-200 bg-white p-4 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-3"><div><div class="text-sm font-semibold text-slate-900">Studios &amp; Praxen</div><div class="mt-1 text-xs text-slate-500">für Kundinnen und Kunden im Wartebereich</div></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+                <p class="mt-3 text-xs leading-6 text-slate-600">Als zusätzliche Leistung in Warte- oder Ruhebereichen, ohne dass das Personal die technische Betreuung übernehmen muss.</p>
+              </details>
+              <details class="group rounded-2xl border border-slate-200 bg-white p-4 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-3"><div><div class="text-sm font-semibold text-slate-900">Kosmetik &amp; Wellness</div><div class="mt-1 text-xs text-slate-500">als Premium-Zusatz im Servicebereich</div></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+                <p class="mt-3 text-xs leading-6 text-slate-600">Als ergänzendes Regenerationsangebot vor oder nach einer Behandlung beziehungsweise während einer Wartezeit.</p>
+              </details>
+              <details class="group rounded-2xl border border-slate-200 bg-white p-4 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-3"><div><div class="text-sm font-semibold text-slate-900">Hotels &amp; Lounges</div><div class="mt-1 text-xs text-slate-500">als besondere Ruhezone für Gäste</div></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+                <p class="mt-3 text-xs leading-6 text-slate-600">Für Gäste, die Wartezeiten oder kurze Aufenthalte für eine unkomplizierte Regeneration nutzen möchten.</p>
+              </details>
+              <details class="group rounded-2xl border border-slate-200 bg-white p-4 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex cursor-pointer items-center justify-between gap-3"><div><div class="text-sm font-semibold text-slate-900">Büros &amp; Teams</div><div class="mt-1 text-xs text-slate-500">für kurze Pausen und Entlastung</div></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+                <p class="mt-3 text-xs leading-6 text-slate-600">Als kompakte Ergänzung in betrieblichen Aufenthalts- oder Pausenräumen.</p>
+              </details>
             </div>
           </div>
 
@@ -312,6 +334,39 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Technische Daten -->
+    <section id="technik" class="border-y border-slate-200/70 bg-white py-20">
+      <div class="mx-auto max-w-4xl px-5 sm:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Technische Daten</h2>
+          <p class="mt-4 text-base leading-7 text-slate-600">Die wichtigsten Angaben kompakt und bei Bedarf aufklappbar.</p>
+        </div>
+        <div class="mt-12 space-y-4">
+          <details class="group rounded-[1.25rem] border border-slate-200 bg-white p-5 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-slate-900"><span>Kosten &amp; Verantwortung</span><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+            <div class="mt-4 text-sm leading-7 text-slate-600">Investitionskosten für das Unternehmen: je nach gewähltem Modell, bei Pay-per-Use 0 EUR.<br>Laufende Nutzungskosten für das Unternehmen: bei Pay-per-Use 0 EUR.<br>Wartung &amp; Service: vollständig durch den Betreiber.<br>Haftung &amp; Betrieb: im vereinbarten Leistungsumfang durch den Betreiber.</div>
+          </details>
+          <details class="group rounded-[1.25rem] border border-slate-200 bg-white p-5 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-slate-900"><span>Platz &amp; Infrastruktur</span><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+            <div class="mt-4 text-sm leading-7 text-slate-600">Benötigte Stellfläche: ca. 1 m².<br>Abstand zur Wand: ca. 5 cm.<br>Stromanschluss: 230 V, Standard-Steckdose.<br>Stromverbrauch: ca. 80 Watt.</div>
+          </details>
+          <details class="group rounded-[1.25rem] border border-slate-200 bg-white p-5 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-slate-900"><span>Gerätedaten</span><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+            <div class="mt-4 text-sm leading-7 text-slate-600">Gewicht netto: ca. 79 kg.<br>Maximale Benutzerlast: 150 kg.<br>Geeignete Körpergröße: ca. 150–195 cm.<br>Material: pflegeleichtes Kunstleder.</div>
+          </details>
+          <details class="group rounded-[1.25rem] border border-slate-200 bg-white p-5 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-slate-900"><span>Nutzung &amp; Technik</span><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+            <div class="mt-4 text-sm leading-7 text-slate-600">Vollautomatischer Betrieb, 24/7 möglich.<br>Kontaktloses Zahlungssystem, z. B. Karte oder Smartphone.<br>2D-Massagesystem mit SL-Track, ca. 133 cm.<br>Vier Luftkissen, Handy-Ladestation und sprachgestützte Nutzerführung.</div>
+          </details>
+          <details class="group rounded-[1.25rem] border border-slate-200 bg-white p-5 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-slate-900"><span>Service &amp; Sicherheit</span><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span></summary>
+            <div class="mt-4 text-sm leading-7 text-slate-600">Leistungsgarantie während der Kooperation.<br>Betriebshaftpflichtversicherung (BHV) vorgesehen.<br>Reparatur, Abholung und Instandsetzung durch den Betreiber.<br>CE-konform; Erstprüfung nach ÖVE/ÖNORM E 8701 vorgesehen. Konkrete Nachweise werden im Rahmen des jeweiligen Einsatzes bereitgestellt.</div>
+          </details>
         </div>
       </div>
     </section>
@@ -365,30 +420,34 @@
           <p class="mt-4 text-base leading-7 text-slate-600">Je nach Einsatzort und Zielgruppe kann das passende Modell gewählt werden.</p>
         </div>
 
-        <div class="mt-14 grid grid-cols-1 gap-6 lg:grid-cols-3">
-          <article class="rounded-[1.75rem] border border-slate-200 bg-white p-8 shadow-sm">
-            <div class="text-xs font-bold uppercase tracking-[0.24em] text-brand-600">Option A</div>
-            <h3 class="mt-3 text-2xl font-bold text-slate-900">Flatrate-Miete</h3>
-            <p class="mt-4 text-sm leading-7 text-slate-600">
-              Eine fixe monatliche Pauschale für die Nutzung im Betrieb, Studio oder Gästebereich. Einfach, planbar und komfortabel.
-            </p>
-          </article>
+        <div class="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2">
+          <details class="group rounded-[1.75rem] border border-slate-200 bg-white p-8 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-start justify-between gap-4">
+              <div><div class="text-xs font-bold uppercase tracking-[0.24em] text-brand-600">Option A</div><h3 class="mt-3 text-2xl font-bold text-slate-900">Flatrate-Miete</h3><p class="mt-3 text-sm text-slate-500">Planbar für die gesamte Belegschaft</p></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-5 text-sm leading-7 text-slate-600">Das Unternehmen bezahlt eine fixe monatliche Pauschale. Die Nutzung steht den Mitarbeiterinnen und Mitarbeitern im vereinbarten Rahmen ohne Einzelzahlung zur Verfügung. Service und Betreuung sind Teil des Betreibermodells.</p>
+          </details>
 
-          <article class="rounded-[1.75rem] border border-slate-200 bg-slate-50/80 p-8 shadow-sm ring-1 ring-brand-100">
-            <div class="text-xs font-bold uppercase tracking-[0.24em] text-brand-600">Option B</div>
-            <h3 class="mt-3 text-2xl font-bold text-slate-900">Guthaben-Modell</h3>
-            <p class="mt-4 text-sm leading-7 text-slate-600">
-              Das Unternehmen kauft ein Kontingent an Nutzungen und gibt es flexibel als Bonus, Zusatzleistung oder Service-Element weiter.
-            </p>
-          </article>
+          <details class="group rounded-[1.75rem] border border-slate-200 bg-slate-50/80 p-8 shadow-sm ring-1 ring-brand-100 [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-start justify-between gap-4">
+              <div><div class="text-xs font-bold uppercase tracking-[0.24em] text-brand-600">Option B</div><h3 class="mt-3 text-2xl font-bold text-slate-900">Guthaben-Modell</h3><p class="mt-3 text-sm text-slate-500">Flexible Nutzungskontingente</p></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-5 text-sm leading-7 text-slate-600">Das Unternehmen erwirbt ein festgelegtes Nutzungskontingent. Dieses kann flexibel als Gesundheits-Bonus, Anerkennung oder Zusatzleistung innerhalb der Belegschaft verteilt werden.</p>
+          </details>
 
-          <article class="rounded-[1.75rem] border border-slate-200 bg-white p-8 shadow-sm">
-            <div class="text-xs font-bold uppercase tracking-[0.24em] text-brand-600">Option C</div>
-            <h3 class="mt-3 text-2xl font-bold text-slate-900">Kauf / Direktverkauf</h3>
-            <p class="mt-4 text-sm leading-7 text-slate-600">
-              Für Kundinnen und Kunden, die das System lieber direkt erwerben möchten, ist auch ein Verkauf möglich.
-            </p>
-          </article>
+          <details class="group rounded-[1.75rem] border border-slate-200 bg-white p-8 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-start justify-between gap-4">
+              <div><div class="text-xs font-bold uppercase tracking-[0.24em] text-brand-600">Option C</div><h3 class="mt-3 text-2xl font-bold text-slate-900">Kauf / Direktverkauf</h3><p class="mt-3 text-sm text-slate-500">Eigentum statt laufender Miete</p></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-5 text-sm leading-7 text-slate-600">Für Kundinnen und Kunden, die das System dauerhaft erwerben und selbst in ihr Angebot oder ihren Betrieb integrieren möchten, ist auch ein Direktkauf möglich. Serviceumfang und Gewährleistung werden separat vereinbart.</p>
+          </details>
+
+          <details class="group rounded-[1.75rem] border border-brand-200 bg-brand-50/60 p-8 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-start justify-between gap-4">
+              <div><div class="text-xs font-bold uppercase tracking-[0.24em] text-brand-600">Option D</div><h3 class="mt-3 text-2xl font-bold text-slate-900">Pay-per-Use</h3><p class="mt-3 text-sm text-slate-500">Budgetneutral für das Unternehmen</p></div><span class="text-slate-400 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-5 text-sm leading-7 text-slate-600">Die Nutzerinnen und Nutzer bezahlen ihre Anwendung selbst direkt am Gerät, beispielsweise kontaktlos per Karte oder Smartphone. Für das Unternehmen entstehen dadurch keine laufenden Nutzungskosten.</p>
+          </details>
         </div>
       </div>
     </section>
@@ -543,10 +602,31 @@
 
     <!-- Footer -->
     <footer class="bg-slate-950 pb-10 pt-6 text-white/50">
-      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-5 text-sm sm:px-8 md:flex-row md:items-center md:justify-between">
-        <div class="font-semibold text-white">Fit<span class="text-brand-500">For</span>Shift</div>
-        <div>© 2025 FitForShift · Regeneration für Wartebereiche, Pausenräume und Teams</div>
-        <div>Aly Akasha · fitforshift@gmail.com · +43 677 61 85 44 40</div>
+      <div class="mx-auto max-w-7xl px-5 text-sm sm:px-8">
+        <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <div class="font-semibold text-white">Fit<span class="text-brand-500">For</span>Shift</div>
+          <div>© 2026 FitForShift · Projekt im Aufbau</div>
+          <div>Aly Akasha · fitforshift@gmail.com · +43 677 61 85 44 40</div>
+        </div>
+
+        <details class="group mt-6 rounded-2xl border border-white/10 bg-white/5 p-5 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-white/80">
+            <span>Impressum</span><span class="transition-transform group-open:rotate-180">⌄</span>
+          </summary>
+          <div class="mt-4 space-y-2 text-xs leading-6 text-white/60">
+            <p><strong class="text-white/80">Medieninhaber und Betreiber:</strong> [Vollständiger Name / Unternehmensbezeichnung]</p>
+            <p><strong class="text-white/80">Anschrift:</strong> [Straße, Hausnummer, PLZ, Ort, Österreich]</p>
+            <p><strong class="text-white/80">Kontakt:</strong> [E-Mail-Adresse] · [Telefonnummer]</p>
+            <p><strong class="text-white/80">Unternehmensgegenstand:</strong> [Tätigkeitsbereich eintragen]</p>
+            <p><strong class="text-white/80">Gewerbe-/Aufsichtsbehörde:</strong> [zuständige Behörde eintragen]</p>
+            <p><strong class="text-white/80">Kammerzugehörigkeit:</strong> [Wirtschaftskammer / Fachgruppe eintragen]</p>
+            <p><strong class="text-white/80">Anwendbare Rechtsvorschriften:</strong> Gewerbeordnung, abrufbar über das Rechtsinformationssystem des Bundes.</p>
+            <p><strong class="text-white/80">UID-Nummer:</strong> [falls vorhanden]</p>
+            <p><strong class="text-white/80">Firmenbuchnummer und Firmenbuchgericht:</strong> [falls eingetragen]</p>
+            <p><strong class="text-white/80">Blattlinie:</strong> Information über das Projekt FitForShift sowie über geplante Regenerationslösungen für betriebliche Einsatzbereiche.</p>
+            <p class="pt-2 italic">Hinweis: Diese Felder sind vor Veröffentlichung mit den tatsächlichen Unternehmensdaten zu ergänzen und abhängig von Rechtsform und Tätigkeit zu prüfen.</p>
+          </div>
+        </details>
       </div>
     </footer>
   </main>
